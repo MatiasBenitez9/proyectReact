@@ -14,7 +14,7 @@ export const ItemListContainer = ( ) =>{
 
     useEffect(() => { 
         const get = new Promise((resolve,reject) => { 
-            setTimeout( ( ) => resolve(data));
+            setTimeout( ( ) => resolve(data),2000);
         });
         get.then((data) => {
             if (!id) {
@@ -24,8 +24,11 @@ export const ItemListContainer = ( ) =>{
                 setProducts(filtered);
             }
         });
-    },  [id]); 
-    return( <Container className="mt-4"><ItemList products={products}/></Container>
+    },  [id,products]); 
+    return( 
+        <Container className="mt-4">
+            <ItemList products={products}/>
+        </Container>
     )};
 
    
