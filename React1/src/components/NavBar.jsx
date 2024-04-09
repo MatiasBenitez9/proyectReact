@@ -14,8 +14,8 @@ export const NavBar = () =>{
         <Container>
           <Navbar.Brand to="#home">OesteShop</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link to="/category/Hombres" as={NavLink} >Hombres</Nav.Link>
-            <Nav.Link to="/category/Mujeres" as={NavLink} >Mujeres</Nav.Link>
+            <Nav.Link to="/category/remeras" as={NavLink} >remeras</Nav.Link>
+            <Nav.Link to="/category/zapatillas" as={NavLink} >zapatillas</Nav.Link>
             <Nav.Link to="/category/Niños" as={NavLink} >Niños</Nav.Link>
             <Nav.Link to="/category/Outlet" as={NavLink}>Outlet</Nav.Link>
           </Nav>

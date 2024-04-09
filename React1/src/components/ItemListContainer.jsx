@@ -1,4 +1,3 @@
-
 import { useEffect,useState } from "react";
 
 import Container from 'react-bootstrap/Container';
@@ -19,7 +18,7 @@ export const ItemListContainer = ( ) =>{
         get.then((data) => {
             setProducts(data);
         });
-    },  []); 
+    },  [id]); 
     return( <Container className="mt-4"><ItemList products={products}/></Container>
     )};
 

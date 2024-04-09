@@ -9,9 +9,9 @@
     {
         "name": "2",
         "id":  1,
-        "category": "zapatillas",
+        "category": "remeras",
         "detail":"El producto es excelente y de gran comodidad",
-        "img":"https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?w=996"
+        "img":"https://img.freepik.com/psd-gratis/frente-camiseta-negra-aislada_125540-1167.jpg?t=st=1712700169~exp=1712703769~hmac=d8cbbe4e692bb130802847658d1ae2a202d657e8e0c8405112fb36bd258559ca&w=1060"
     },
     {
         "name": "3",
@@ -23,11 +23,11 @@
     {
         "name": "4",
         "id":  1,
-        "category": "zapatillas",
+        "category": "remeras",
         "detail":"El producto es excelente y de gran comodidad",
-        "img":"https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?w=996"
+        "img":"https://img.freepik.com/fotos-premium/maqueta-camisa-roja-humano-1_996668-687.jpg?w=826"
     },
-    {
+    {  
         "name": "5",
         "id":  1,
         "category": "zapatillas",
