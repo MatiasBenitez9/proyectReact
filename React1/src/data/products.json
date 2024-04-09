@@ -15,6 +15,7 @@
     },
     {
         "name": "Zapatillas",
+        "id": 3,
         "category": "zapatillas",
         "detail":"El producto es excelente y de gran comodidad",
         "img":"https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?w=996"
