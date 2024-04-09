@@ -16,7 +16,7 @@ export const NavBar = () =>{
           <Nav className="me-auto">
             <Nav.Link to="/category/remeras" as={NavLink} >remeras</Nav.Link>
             <Nav.Link to="/category/zapatillas" as={NavLink} >zapatillas</Nav.Link>
-            <Nav.Link to="/category/Niños" as={NavLink} >Niños</Nav.Link>
+            <Nav.Link to="/category/premium" as={NavLink} >Niños</Nav.Link>
             <Nav.Link to="/category/Outlet" as={NavLink}>Outlet</Nav.Link>
           </Nav>
           <CartWidget/>
