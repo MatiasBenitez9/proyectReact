@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useEffect,useState } from "react";
 
 import Container from 'react-bootstrap/Container';
@@ -11,11 +12,9 @@ export const ItemDetailContainer = ( ) =>{
     const {id} = useParams();
 
     useEffect(() => { 
-        const get = new Promise((resolve) => { 
-            setTimeout( ( ) => resolve(data)); //simulate a delay for loading the data
+        const get = new Promise((resolve,reject) => { 
+            setTimeout( ( ) => resolve(data), 1000);
         });
-
-        
         get.then((data) => {
             const filter = data.find((p) => p.id === Number (id));
             setProduct(filter);

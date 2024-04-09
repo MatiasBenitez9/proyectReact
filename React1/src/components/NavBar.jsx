@@ -12,7 +12,7 @@ export const NavBar = () =>{
         <>
         <Navbar bg="dark" className='container-fluid' data-bs-theme="dark">
         <Container>
-          <Navbar.Brand to="#home">OesteShop</Navbar.Brand>
+          <Navbar.Brand to="/category">OesteShop</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link to="/category/remeras" as={NavLink} >remeras</Nav.Link>
             <Nav.Link to="/category/zapatillas" as={NavLink} >zapatillas</Nav.Link>
