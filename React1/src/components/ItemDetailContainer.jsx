@@ -17,7 +17,7 @@ export const ItemDetailContainer = ( ) =>{
 
         
         get.then((data) => {
-            const filter = data.find((p) => p.id === id);
+            const filter = data.find((p) => p.id === Number (id));
             setProduct(filter);
             // setProduct(data[0]);
         });
