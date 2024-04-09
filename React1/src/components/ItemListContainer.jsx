@@ -16,7 +16,12 @@ export const ItemListContainer = ( ) =>{
             setTimeout( ( ) => resolve(data)); //simulate a delay for loading the data
         });
         get.then((data) => {
-            setProducts(data);
+            if (!id) {
+                setProducts(data);
+            }else{
+                const filtered = data.filter((p) => p.category ===id);
+                setProducts(filtered);
+            }
         });
     },  [id]); 
     return( <Container className="mt-4"><ItemList products={products}/></Container>
