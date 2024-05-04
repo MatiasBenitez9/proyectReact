@@ -2,3 +2,15 @@
     color: green;
     padding-left: 1rem;
 }
+
+.d-flex{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+.c-flex{
+        width: 19rem;
+        margin: 5px;
+}
