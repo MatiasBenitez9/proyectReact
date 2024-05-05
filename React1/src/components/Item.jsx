@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 
 
 export const Item = ( { product } ) =>  (
-          <Card className="c-flex">
-            <Card.Img width="50px" height="200px" variant="top" src={ product.img } />
+          <Card style={{width: "17rem"}}>
+            <Card.Img height="200" variant="top" src={ product.imageId } />
             <Card.Body>
-              <Card.Title>{ product.name }</Card.Title>
-              <Card.Text>{ product.detail }</Card.Text>
-              <Card.Text>{ product.category }</Card.Text>
+              <Card.Title>{ product.title }</Card.Title>
+              <Card.Text>{ product.description }</Card.Text>
+              <Card.Text>{ product.categoryId }</Card.Text>
               <Link to={"/item/${product.id}" }>
-                <Button variant="primary">Comprar</Button>
+                <Button variant="primary">Detalles</Button>
               </Link>
             </Card.Body>
           </Card>
