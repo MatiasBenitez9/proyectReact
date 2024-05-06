@@ -10,9 +10,9 @@ export const CartWidget = (  ) =>{
 
     const total  =  items.reduce(  ( acc, elem )   =>  acc  + elem.quantity, 0);
     return (
-        <Link to="/cart">
+        <Link className="spancart" to="/cart">
             <img src={ cart } alt="Cart" width={40}/>
-            <span>{total}</span>
+            <span className="spancart">{total}</span>
         </Link>
     );
 };

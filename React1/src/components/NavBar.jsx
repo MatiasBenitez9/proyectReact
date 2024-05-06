@@ -12,7 +12,7 @@ export const NavBar = () =>{
         <>
         <Navbar bg="dark" className='container-fluid' data-bs-theme="dark">
         <Container>
-          <Nav.Link className='title-page' to="/" as={NavLink}>OesteShop
+          <Nav.Link className="title-page" to="/" as={NavLink}>OesteShop
           </Nav.Link>
           <Nav className="me-auto">
             <Nav.Link to="/category/remeras" as={NavLink} >
