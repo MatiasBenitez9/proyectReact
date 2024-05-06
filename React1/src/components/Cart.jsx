@@ -69,25 +69,6 @@ export const Cart = () =>  {
     <div>Total : {total ( ) }</div>
     <button className='btnborrar' onClick={ (handleClear )}>Vaciar todo</button>
    { items?.length  > 0 &&
-    // <form>
-    //         <label>Nombre</label>
-    //         <input 
-    //         type="text"  value={ values.name } name="name" onChange={ handleChange}
-    //         />
-    //         <label>Telefono</label>
-    //         <input
-    //         type="text"  value={ values.phone } name="phone" onChange={handleChange }
-    //         />
-    //         <label>Correo Electronico</label>
-    //         <input 
-    //         type="text"  value={ values.email } name="email" onChange={ handleChange }
-    //         />
-    //         <button type="button"  onClick={handleSubmit}>
-    //             ENVIAR
-    //         </button>
-    // </form>
-
-    
     <form className="form">
         <div className="input-container">
           <input placeholder="Ingresar Nombre" type="text" value={ values.name } name="name" onChange={handleChange }/>

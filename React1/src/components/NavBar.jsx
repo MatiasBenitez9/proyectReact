@@ -19,7 +19,7 @@ export const NavBar = () =>{
               Remeras</Nav.Link>
             <Nav.Link to="/category/zapatillas" as={NavLink} >
               Zapatillas</Nav.Link>
-            <Nav.Link to="/category/Outlet" as={NavLink}>
+            <Nav.Link to="/category/outlet" as={NavLink}>
               Outlet</Nav.Link> 
           </Nav>
           <CartWidget/>

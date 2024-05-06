@@ -21,7 +21,10 @@ export const ItemDetailContainer = ( ) =>{
         });
     },  [id]); 
 
-    if (!product.id)  return <div>Cargando...</div>;
+    if (!product.id)  
+      return <div className="loader">
+    <div className="justify-content-center jimu-primary-loading"></div>
+  </div>;
 
     return <ItemDetail product={product} />;
 };
