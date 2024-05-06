@@ -1,3 +1,7 @@
+body{
+    background-color: #ffffff;
+}
+
 #widget-cart > span {
     color: green;
     padding-left: 1rem;
@@ -20,10 +24,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     margin-right: 30px;
-}
-.title-page:hover{
-    color:white;
-    transition: none;
+    text-decoration: none;
 }
 .btnborrar {
     font-family: Arial;
