@@ -7,11 +7,9 @@ export const ItemCount  = ( { onAdd, stock } )  =>  {
     const handleDecrease = (  ) => {
         if ( quantity  > 1 ) setQuantity( ( prev )  =>  prev  - 1 );
     };
-
     const handleIncrease  =  (  )  =>  {
         if ( stock  > quantity ) setQuantity( ( prev )  =>  prev  + 1 );
     };
-
     const handleAdd  =  (  )  =>  {
         onAdd(quantity);
         setQuantity(1);
@@ -24,8 +22,7 @@ export const ItemCount  = ( { onAdd, stock } )  =>  {
         <button className="button-39" role="button" onClick={handleIncrease}>+</button>
         {/* <button  type="button"  onClick={handleAdd}>Agregar al Carrito</button> */}
         <button className="button-11" type="button" onClick={handleAdd}>
-            <span className="button_top"> Agregar Al Carrito
-            </span>
+            <span className="button_top"> Agregar Al Carrito</span>
         </button>
     </div>
     );
