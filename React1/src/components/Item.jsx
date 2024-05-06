@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 
@@ -12,7 +11,7 @@ export const Item = ( { product } ) =>  (
               <Card.Text>{ product.description }</Card.Text>
               <Card.Text>${ product.price }</Card.Text>
               <Link to={`/item/${product.id}` }>
-                <Button className='botondetalle' variant="primary">Detalles</Button>
+                <button className='botondetalle'>Detalles</button>
               </Link>
             </Card.Body>
           </Card>
