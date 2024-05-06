@@ -8,13 +8,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     margin: 3px;
 }
-.c-flex{
+/* .c-flex{
         width: 19rem;
         margin: 1px;
-}
+} */
 .title-page{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
