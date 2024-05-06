@@ -19,9 +19,9 @@ export const ItemCount  = ( { onAdd, stock } )  =>  {
 
     return(
     <div className="">
-        <div style={{padding:  "0 10px", color: "green", fontWeight: 900}}  onClick={handleDecrease}>-</div>
-        <input type="number"  value={quantity}/>
-        <div style={{padding:  "0 10px", color: "green", fontWeight: 900}}  onClick={handleIncrease}>+</div>
+        <button className="button-39" role="button" onClick={handleDecrease}>-</button>
+        <input placeholder="Enter your text..." className="input" type="number" value={quantity}></input>
+        <button className="button-39" role="button" onClick={handleIncrease}>+</button>
         <button  type="button"  onClick={handleAdd}>Agregar al Carrito</button>
     </div>
     );
