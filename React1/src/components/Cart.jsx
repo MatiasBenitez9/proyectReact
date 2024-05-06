@@ -71,13 +71,16 @@ export const Cart = () =>  {
    { items?.length  > 0 &&
     <form className="form">
         <div className="input-container">
-          <input placeholder="Ingresar Nombre" type="text" value={ values.name } name="name" onChange={handleChange }/>
+            <label>Nombre</label>
+          <input placeholder="Ingresar Nombre" type="name" value={ values.name } name="name" onChange={handleChange }/>
       </div>
       <div className="input-container">
+      <label>Telefono</label>
           <input placeholder="Ingresar Telefono" type="text" value={ values.phone } name="phone"  onChange={handleChange }/>
         </div>
         <div className="input-container">
-          <input placeholder="Ingresar Email" type="email" value={ values.email } name="email"  onChange={handleChange }/>
+        <label>Correo Electronico</label>
+          <input placeholder="Ingresar Email " type="text" value={ values.email } name="email"  onChange={handleChange }/>
         </div>
          <button className="submit" type="button"  onClick={handleSubmit}>
             ENVIAR

@@ -22,7 +22,11 @@ export const ItemCount  = ( { onAdd, stock } )  =>  {
         <button className="button-39" role="button" onClick={handleDecrease}>-</button>
         <input placeholder="Enter your text..." className="input" type="number" value={quantity}></input>
         <button className="button-39" role="button" onClick={handleIncrease}>+</button>
-        <button  type="button"  onClick={handleAdd}>Agregar al Carrito</button>
+        {/* <button  type="button"  onClick={handleAdd}>Agregar al Carrito</button> */}
+        <button className="button-11" type="button" onClick={handleAdd}>
+            <span className="button_top"> Agregar Al Carrito
+            </span>
+        </button>
     </div>
     );
 };
