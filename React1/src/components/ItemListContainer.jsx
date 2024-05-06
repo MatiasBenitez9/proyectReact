@@ -7,14 +7,10 @@ import {useParams} from "react-router-dom";
 
 import {
     getFirestore,
-    getDoc,
-    doc,
-    updateDoc,
     collection,
     getDocs,
     query,
     where,
-   addDoc,
   } from "firebase/firestore";
   
 

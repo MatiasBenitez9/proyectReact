@@ -3,14 +3,41 @@
     padding-left: 1rem;
 }
 
-/* .d-flex{
+.d-flex{
     background-color: white;
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
+    margin: 3px;
 }
 .c-flex{
         width: 19rem;
-        margin: 5px;
-} */
+        margin: 1px;
+}
+.title-page{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-right: 30px;
+}
+.title-page:hover{
+    color:white;
+    transition: none;
+}
+.btnborrar {
+    font-family: Arial;
+    color: #ebf5ec;
+    font-size: 11px;
+    padding: 2px;
+    text-decoration: none;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 4px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    text-shadow: 1px 1px 3px #666666;
+    border: solid #000000 5px;
+    background: #030303;
+  }

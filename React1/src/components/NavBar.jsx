@@ -12,16 +12,17 @@ export const NavBar = () =>{
         <>
         <Navbar bg="dark" className='container-fluid' data-bs-theme="dark">
         <Container>
-          <Navbar.Brand to="#home">OesteShop</Navbar.Brand>
+          <Nav.Link className='title-page' to="/" as={NavLink}>OesteShop
+          </Nav.Link>
           <Nav className="me-auto">
             <Nav.Link to="/category/remeras" as={NavLink} >
               Remeras</Nav.Link>
             <Nav.Link to="/category/zapatillas" as={NavLink} >
               Zapatillas</Nav.Link>
-            <Nav.Link to="/category/premium" as={NavLink} >
+            {/* <Nav.Link to="/category/premium" as={NavLink} >
               Niños</Nav.Link>
             <Nav.Link to="/category/Outlet" as={NavLink}>
-              Outlet</Nav.Link>
+              Outlet</Nav.Link> */}
           </Nav>
           <CartWidget/>
         </Container>
